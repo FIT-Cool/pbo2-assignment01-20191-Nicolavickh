@@ -1,5 +1,6 @@
 // made by Nicolavickh Yohanes 1772016
-package com.BatuGuntingKertas;
+
+package com.hitungLuas;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,9 +12,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("BatuGuntingKertas.fxml"));
-        primaryStage.setTitle("Paper Rock Scissors Game");
-        primaryStage.setScene(new Scene(root, 600, 450));
+        Parent root = FXMLLoader.load(getClass().getResource("HitungLuas.fxml"));
+        primaryStage.setTitle("Hitung Luas");
+        primaryStage.setScene(new Scene(root, 425, 188));
         primaryStage.show();
     }
 

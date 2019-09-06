@@ -1,3 +1,5 @@
+// made by Nicolavickh Yohanes 1772016
+
 package com.BatuGuntingKertas;
 
 import javafx.application.Platform;
@@ -69,7 +71,6 @@ public class BatuGuntingKertas_Controller {
     }
 
     public void paper(ActionEvent actionEvent) {
-
         String gambar="";
         userChoose.setImage(new Image("com/BatuGuntingKertas/kertas.jpg"));
         gambar = gambarRandom();
